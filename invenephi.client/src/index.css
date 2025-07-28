@@ -1,0 +1,128 @@
+:root {
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #15151e;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-image: url(./assets/dark-honeycomb.png);
+    background-blend-mode: soft-light;
+    background-color: #15151e;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+h3 {
+    color: #6091e0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 125%;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+button {
+    color: #fff;
+    text-align: center;
+    border-radius: 11rem;
+    padding: .8rem 1.5rem;
+    font-weight: 600;
+    background-color: #1169f7;
+    transition-property: background-color;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+p {
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+form {
+    display: contents;
+}
+
+button#phi-upload-submit {
+    color: #fff;
+    text-align: center;
+    border-radius: 11rem;
+    padding: .8rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #1169f7;
+    transition-property: background-color;
+    border: 0;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+    button#phi-upload-submit:hover, button#phi-upload-submit:active, button#phi-upload-submit:link, button#phi-upload-submit:visited {
+        background-color: rgba(17, 105, 247, 0.5);
+        border: 0;
+    }
+
+div#container-phi-upload {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    background-color: #15151e;
+    background-image: radial-gradient(circle farthest-corner at 100% -50%, #444, #15151e00 43%);
+    border: .5px solid #ffffff26;
+    border-radius: 16px;
+    flex-flow: column;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    position: relative;
+    opacity:.85;
+}
+
+@media (prefers-color-scheme: light) {
+    : root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
