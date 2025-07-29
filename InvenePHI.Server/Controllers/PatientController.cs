@@ -15,7 +15,8 @@ namespace InvenePHI.Server.Controllers
             // Call the FileUpload method from Injected FileManager
             var uploadResult = fileManager.FileUpload(files);
 
-            if(uploadResult.isSuccess)
+            // Return the result based on the upload status
+            if (uploadResult.isSuccess)
             {
                 return Ok(uploadResult.message);
             } 

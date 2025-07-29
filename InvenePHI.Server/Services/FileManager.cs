@@ -37,6 +37,7 @@ namespace InvenePHI.Server.Services
                             file.CopyTo(stream);
                         }
 
+                        // Redact the file content
                         FileRedact(file);
                     }
 
