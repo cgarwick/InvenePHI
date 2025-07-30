@@ -1,14 +1,15 @@
 Dependencies:
 
 - Visual Studio 2022 - React.js with ASP.NET Core 8.0
-- Node.js
+- Node.js (minimum v22.14.1)
 - Run 'npm install' on the invenephi.client folder - This should take care of esline, vite, and react.
 
 Instructions:
 
 - Clone Git repository, Open in Visual Studio (VS 2022 recommended).
 - In VS, open terminal, navigate to invenephi.client directory and run 'npm install'.
-- In VS, click Start to run both the front end and back end applications together (this will automatically build and run the application).
+- In VS, set the startup project to the web project and click Start/Play with https to run both the front end and back end applications together (this will automatically build and run the application).
+- Note: You may need to manually browse to https://localhost:64338/ after running the application if it does not open a browser automatically.
 
 Approach to Identifying and redacting PHI:
 
